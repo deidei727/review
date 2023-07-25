@@ -1,6 +1,8 @@
 # Flex布局
 flex布局可以理解为弹性布局，任何一个容器都可以被指定为Flex布局
 ## 指定为flex布局
+ **注意**：当设置了flex布局，子元素的float、clear、vertical-align属性将失效。
+
 - 块元素
 ```
 display: flex;
